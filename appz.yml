@@ -1,6 +1,6 @@
 app:
-    name: mysqlworkbench-8.0
-    code: mysqlworkbench-8.0
+    name: MYSQLWorkbench
+    code: MYSQLWorkbench
     notify: fjoy@ecloudcontrol.com
 
 build:
