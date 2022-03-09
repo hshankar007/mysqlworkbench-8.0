@@ -1,0 +1,23 @@
+app:
+    name: mysqlworkbench-8.0
+    code: mysqlworkbench-8.0
+    notify: fjoy@ecloudcontrol.com
+
+build:
+    version: 8.0
+    env: DEV
+    build_file: none
+    output_files: output/*.zip
+    image_template: mysqlworkbench-8.0
+
+deploy:
+    context: francisjoy/DEV
+    replicas: 1
+    port:
+    - 80
+
+properties:
+    USER_PASSWORD: 
+       vault: USER_PASSWORD
+
+    revision: 32
