@@ -14,7 +14,7 @@ deploy:
     context: francisjoy/DEV
     replicas: 1
     port:
-    - 80
+    - 3000
 
 properties:
     USER_PASSWORD: 
