@@ -20,4 +20,4 @@ properties:
     USER_PASSWORD: 
        vault: USER_PASSWORD
 
-    revision: 32
+    revision: 1
