@@ -11,7 +11,7 @@ build:
     image_template: mysqlworkbench-8.0
 
 deploy:
-    context: alpha-DEV
+    context: hari-dev
     replicas: 1
     port:
     - 3000
