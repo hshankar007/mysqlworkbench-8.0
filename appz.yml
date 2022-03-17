@@ -1,7 +1,7 @@
 app:
     name: MYSQLWorkbench
     code: MYSQLWorkbench
-    notify: fjoy@ecloudcontrol.com
+    notify: hshankar@ecloudcontrol.com
 
 build:
     version: 8.0
@@ -11,7 +11,7 @@ build:
     image_template: mysqlworkbench-8.0
 
 deploy:
-    context: francisjoy/DEV
+    context: alpha-DEV
     replicas: 1
     port:
     - 3000
