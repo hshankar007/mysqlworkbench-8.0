@@ -7,15 +7,11 @@ build:
     version: 8.0
     env: DEV
     build_file: none
-    args:
-       cap-add: ipc_lock
+
     output_files: output/*.zip
     image_template: mysqlworkbench-8.0
     
-#    securityContext:
-#      capabilities:
-#        add:
- #         - IPC_LOCK
+
 
 deploy:
     context: alpha/DEV
